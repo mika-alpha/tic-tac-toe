@@ -43,3 +43,32 @@ body{
     justify-content: center;
 
 }
+
+.player-name{
+    background-color: var(--border);
+    border: 1px solid var(--font);
+    color: var(--font);
+    font-size: 30px;
+    height: 50px;
+}
+
+.player-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 40px;
+}
+
+input::placeholder{
+    color: var(--middle-background);
+}
+
+.start-button{
+    background-color: var(--font);
+    color: var(--background);
+    border: 2px solid var(--background);
+    height: 50%;
+    width: 50%;
+    font-weight: 900;
+    font-size: 20px;
+}
