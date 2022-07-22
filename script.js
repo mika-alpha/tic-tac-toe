@@ -34,7 +34,6 @@ const Player = (name, symbol) => {
 
     const stopGame = (player) =>{
         gameOver = true;
-        window.alert(`${player.getName()} has won`);
         changeColors();
     }
 
