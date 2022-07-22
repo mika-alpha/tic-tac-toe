@@ -32,7 +32,7 @@ const Player = (name, symbol) => {
         playerTwo = Player(`${playerNames[1].value.length > 0 ? playerNames[1].value : 'P2'}`, 'O');
     }
 
-    const stopGame = (player) =>{
+    const stopGame = () =>{
         gameOver = true;
         changeColors();
     }
