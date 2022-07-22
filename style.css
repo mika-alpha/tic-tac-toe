@@ -37,7 +37,7 @@ body{
 
 .game-cell{
     border: 10px solid var(--border);
-    font-size: 30px;
+    font-size: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,17 +64,28 @@ input[type="text"]::placeholder{
     color: var(--middle-background);
 }
 
-.start-button{
-    background-color: var(--font);
-    color: var(--background);
-    border: 2px solid var(--background);
-    height: 50%;
-    width: 50%;
+#start{
+    width: 200px;
+    height: 50px;
+    background-color: var(--border);
+    font-size: 25px;
     font-weight: 900;
-    font-size: 20px;
-    border-radius: 20px;
+    letter-spacing: 5px;
+    border: 1px solid var(--font);
 }
 
-.start-button:active{
-    background-color: var(--middle-background);
+#start:active{
+    background-color: var(--font);
+}
+
+.playing{
+    background-color: #5c328a;
+}
+
+.winner{
+    background-color: #1b5234;
+}
+
+.loser{
+    background-color: #702436;
 }
